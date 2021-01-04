@@ -11,6 +11,7 @@
 		1D386C0C25A37167004A457B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C0B25A37167004A457B /* ContentView.swift */; };
 		1D386C0E25A3716C004A457B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D386C0D25A3716C004A457B /* Assets.xcassets */; };
 		1D386C1125A3716C004A457B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D386C1025A3716C004A457B /* Preview Assets.xcassets */; };
+		1D386C2125A3726C004A457B /* SnakeGameVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C2025A3726C004A457B /* SnakeGameVariables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1D386C0D25A3716C004A457B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D386C1025A3716C004A457B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D386C1225A3716C004A457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D386C2025A3726C004A457B /* SnakeGameVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGameVariables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1D386C0D25A3716C004A457B /* Assets.xcassets */,
 				1D386C1225A3716C004A457B /* Info.plist */,
 				1D386C0F25A3716C004A457B /* Preview Content */,
+				1D386C2025A3726C004A457B /* SnakeGameVariables.swift */,
 			);
 			path = SnakeGameInSwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D386C2125A3726C004A457B /* SnakeGameVariables.swift in Sources */,
 				1D386C0C25A37167004A457B /* ContentView.swift in Sources */,
 				1D386C0A25A37167004A457B /* SnakeGameInSwiftUIApp.swift in Sources */,
 			);
